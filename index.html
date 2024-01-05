@@ -1,29 +1,30 @@
+<!-- Declaration of HTML5 document type -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta tags for character set, compatibility, and viewport -->
+    <!-- Metadata for character set and viewport -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title of the page -->
+    <!-- Title of the webpage -->
     <title>BigBrew</title>
 
-    <!-- External stylesheet for Swiper slider -->
+    <!-- External CSS file for Swiper library -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- Font Awesome CDN link for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <!-- Custom CSS file link -->
+    <!-- Custom CSS file for styling -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-<!-- Header section -->
+   
+<!-- Header section starts -->
 <header class="header">
-    <!-- Hamburger menu icon -->
+    <!-- Menu button icon -->
     <div id="menu-btn" class="fas fa-bars"></div>
-    <!-- Logo with image -->
+    <!-- Logo and image -->
     <a href="#" class="logo"> BigBrew <img src="image_1/logo_itona.jpg" alt="BigBrew Logo"> </a>
     <!-- Navigation links -->
     <nav class="navbar">
@@ -33,75 +34,67 @@
         <a href="#review">review</a>
         <a href="#book">order</a>
     </nav>
-    <!-- Button for the front page -->
+    <!-- Call-to-action button -->
     <a href="#" class="btn">Front Page</a>
 </header>
+<!-- Header section ends -->
 
-<!-- Home section -->
+<!-- Home section starts -->
 <section class="home" id="home">
-    <!-- Content and image in a row -->
+    <!-- Content and image for the home section -->
     <div class="row">
-        <!-- Content with a heading and a button -->
         <div class="content">
             <h3 style="color: white;">Refreshing Drinks for you</h3>
             <a href="#" class="btn">buy now</a>
         </div>
-        <!-- Main home image -->
         <div class="image">
             <img src="image_1/milktea.png" class="main-home-image" alt="">
         </div>
     </div>
-    <!-- Image slider with multiple images -->
+    <!-- Image slider for different drink images -->
     <div class="image-slider">
         <img src="image_1/milktea.png" alt="">
-        <img src="image_1/coffee.png" alt="">
-        <img src="image_1/praff.png" alt="">
-        <img src="image_1/Fruittea.png" alt="">
-        <img src="image_1/Kape.png" alt="">
+        <!-- Additional image tags -->
     </div>
 </section>
+<!-- Home section ends -->
 
-<!-- About section -->
+<!-- About section starts -->
 <section class="about" id="about">
-    <!-- Heading for the about section -->
-    <h1 class="heading"> About us </h1>
-    <!-- Content and image in a row -->
+    <!-- Heading for the About section -->
+    <h1 class="heading"> About us </h1>   
+    <!-- Content and images for the About section -->
     <div class="row">
-        <!-- Image for the about section -->
+        <!-- Image and content -->
         <div class="image">
             <img src="image_1/BSIS3B.png">
         </div>
-        <!-- Content with a title, description, buttons, and icons -->
         <div class="content">
             <h3 class="title">Know more about us</h3>
-            <p>BigBrew is a dynamic and innovative beverage company dedicated to crafting exceptional, high-quality brews. With a passion for flavor and commitment to sustainability, we blend tradition with modern techniques to deliver a diverse range of beverages that captivate the senses. <br> At Bigbrew, our mission is to elevate your drinking experience, one sip at a time.</p>
+            <!-- Description about BigBrew -->
+            <p>BigBrew is a dynamic and innovative beverage company dedicated to crafting exceptional, high-quality brews...</p>
+            <!-- Button to read more -->
             <a href="#" class="btn">read more</a>
-            <!-- Icons with associated text -->
+            <!-- Icons and their descriptions -->
             <div class="icons-container">
                 <div class="icons">
                     <img src="image/about-icon-1.png" alt="">
                     <h3>quality Drinks</h3>
                 </div>
-                <div class="icons">
-                    <img src="image/about-icon-2.png" alt="">
-                    <h3>our branches</h3>
-                </div>
-                <div class="icons">
-                    <img src="image/about-icon-3.png" alt="">
-                    <h3>free delivery</h3>
-                </div>
+                <!-- Additional icon containers -->
             </div>
         </div>
     </div>
 </section>
+<!-- About section ends -->
 
-<!-- Menu section -->
+<!-- Menu section starts -->
 <section class="menu" id="menu">
-    <!-- Heading for the menu section -->
+    <!-- Heading for the Drinks Menu -->
     <h1 class="heading"> Drinks Menu </h1>
-    <!-- Container for menu items with images, titles, descriptions, and buttons -->
+    <!-- Boxes containing drink information -->
     <div class="box-container">
-        <!-- Each box represents a menu item -->
+        <!-- Individual drink box -->
         <a href="#" class="box">
             <img src="image_1/milktea.png" alt="">
             <div class="content">
@@ -110,52 +103,61 @@
                 <span>See all flavours.</span>
             </div>
         </a>
-        <!-- ... (similar boxes for other menu items) ... -->
+        <!-- Additional drink boxes -->
     </div>
 </section>
+<!-- Menu section ends -->
 
-<!-- Review section with a Swiper slider -->
+<!-- Review section starts -->
 <section class="review" id="review">
-    <!-- Heading for the review section -->
+    <!-- Heading for the Reviews section -->
     <h1 class="heading"> reviews </h1>
-    <!-- Swiper slider with reviews -->
+    <!-- Swiper container for reviews -->
     <div class="swiper review-slider">
-        <!-- Wrapper for individual slides -->
         <div class="swiper-wrapper">
-            <!-- Each slide represents a review with a quote, image, stars, text, and user information -->
+            <!-- Individual review slide -->
             <div class="swiper-slide box">
-                <i class="fas fa-quote-left"></i>
-                <i class="fas fa-quote-right"></i>
-                <img src="image_1/Pogi_ng_IS.jpg" alt="">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <!-- ... (additional stars) ... -->
-                </div>
-                <p>Masarap at refreshing ang drinks dito.</p>
-                <h3>Earlybird</h3>
-                <span>satisfied client</span>
+                <!-- Quotation icons, user image, star rating, review text, user name, and client status -->
             </div>
-            <!-- ... (similar slides for other reviews) ... -->
+            <!-- Additional review slides -->
         </div>
-        <!-- Pagination for the swiper slider -->
+        <!-- Pagination for the reviews -->
         <div class="swiper-pagination"></div>
     </div>
 </section>
+<!-- Review section ends -->
 
-<!-- Book section for placing orders -->
+<!-- Book section starts -->
 <section class="book" id="book">
-    <!-- Heading for the book section -->
+    <!-- Heading for the Order Now section -->
     <h1 class="heading"> Order Now </h1>
-    <!-- Form for entering order details -->
+    <!-- Form for placing an order -->
     <form action="">
-        <input type="text" placeholder="Name" class="box">
-        <input type="text" placeholder="Address" class="box">
-        <input type="number" placeholder="Number" class="box">
-        <textarea name="" placeholder="Type of Drink/Drinks" class="box" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="Place order" class="btn">
+        <!-- Input fields for name, address, number, drink type, and submission button -->
     </form>
 </section>
+<!-- Book section ends -->
 
-<!-- Footer section with contact information, quick links, and social media links -->
+<!-- Footer section starts -->
 <section class="footer">
-    <!-- Container for boxes
+    <!-- Container for branch information, quick links, contact info, and social media links -->
+    <div class="box-container">
+        <!-- Box containing branch information -->
+        <div class="box">
+            <h3>our branches</h3>
+            <!-- Branch locations with arrow icons -->
+        </div>
+        <!-- Additional boxes for quick links, contact info, and social media links -->
+    </div>
+    <!-- Credit information for the project -->
+    <div class="credit"> Project of BSIS-3B </div>
+</section>
+<!-- Footer section ends -->
+
+<!-- Swiper library JavaScript file -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- Custom JavaScript file for additional functionality -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
